@@ -1,6 +1,6 @@
 package Lesson2.homeWork;
 
-import com.jtattoo.plaf.acryl.AcrylLookAndFeel;
+//import com.jtattoo.plaf.acryl.AcrylLookAndFeel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,11 +15,11 @@ import java.net.MalformedURLException;
 public class MainHomeWork {
     public static void main(String[] args) throws MalformedURLException {
         //Set Skin
-        try {
-            UIManager.setLookAndFeel(new AcrylLookAndFeel() );
-        } catch (UnsupportedLookAndFeelException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            UIManager.setLookAndFeel(new AcrylLookAndFeel() );
+//        } catch (UnsupportedLookAndFeelException e) {
+//            e.printStackTrace();
+//        }
         // Chang views window + Skin
         JFrame.setDefaultLookAndFeelDecorated(true);
 

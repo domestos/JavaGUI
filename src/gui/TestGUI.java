@@ -1,6 +1,6 @@
 package gui;
 
-import com.jtattoo.plaf.smart.SmartLookAndFeel;
+//import com.jtattoo.plaf.smart.SmartLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -27,21 +27,21 @@ public class TestGUI {
     private MyJFrame frame;
 
     public static void main(String[] args) {
-        try {
-            UIManager.setLookAndFeel(new SmartLookAndFeel());
-        } catch (UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(TestGUI.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            UIManager.setLookAndFeel(new SmartLookAndFeel());
+//        } catch (UnsupportedLookAndFeelException ex) {
+//            Logger.getLogger(TestGUI.class.getName()).log(Level.SEVERE, null, ex);
+//        }
 
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         TestGUI testGUI = new TestGUI();
 
-        testGUI.createLabels();
+      //  testGUI.createLabels();
         testGUI.createTextFields();
         testGUI.createButtons();
-        testGUI.createPanels();
-        testGUI.createFrame();
+      //  testGUI.createPanels();
+  //      testGUI.createFrame();
 
     }
 
